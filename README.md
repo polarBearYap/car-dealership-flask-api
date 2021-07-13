@@ -2,26 +2,26 @@
 - A Docker container for deployment of Python production-ready ML model using Flask. 
 
 ## Table of Contents
-* [Learning Purpose](#Learning-Purpose-&#128218;)
-* [Technology Applied](#Technology-Applied-&#129302;)
-* [Software Requirement](#Software-Requirement-(Windows-10-Environment)-&#128187;)
-* [Local Setup (Windows 10 Environment)](#Local-Setup-(Windows-10-Environment)-&#x2699;)
+* [Learning Purpose](#Learning-Purpose)
+* [Technology Applied](#Technology-Applied)
+* [Software Requirement](#Software-Requirement-(Windows-10-Environment))
+* [Local Setup (Windows 10 Environment)](#Local-Setup-(Windows-10-Environment))
 * [Deploy Docker image to Azure](#Deploy-Docker-image-to-Azure)
 * [Technical Contributions](#Technical-Contributions)
 * * [Learning-Lessons](#Learning-Lessons)
 * * [Credits](#Credits)
 
-## Learning Purpose &#128218;
+## Learning Purpose
 - To learn how to build Python &#128013; production-ready model using Docker.
 - To learn how to deploy built Docker image to Azure Web App.
 - To get my hands dirty in DevOps &#128521;.
 
-## Technology Applied &#129302;
+## Technology Applied
 - [Docker](https://www.docker.com/): To containerise the API since there is many Python dependencies, why not just bundle it up.
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/): For building API to allow access to trained models.
 - [Azure AutoML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml): Auto optmization of machine learning models without even trying &#129315;.
 
-## Software Requirement (Windows 10 Environment) &#128187;
+## Software Requirement (Windows 10 Environment)
 - Windows Edition
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
 - Visual Studio 2019 Community Version: To develop the API and manage Python dependencies
@@ -30,7 +30,7 @@
 > Tips &#128161;: For installing Docker Desktop in Windows, I personally recommended to setup WSL 2 backend instead of setting up Hyper-V backend and Windows containers.
 The setup steps for first option is available in this [MS docs](https://docs.microsoft.com/en-us/windows/wsl/install-win10). The latter option requires [Hypervisor](https://docs.microsoft.com/en-us/answers/questions/29175/installation-of-hyper-v-on-windows-10-home.html), which is not available in Windows Home Edition. However, you can try to [install Hypervisor in Windows Home Edition](https://www.itechtics.com/enable-hyper-v-windows-10-home/).
 
-## Local Setup (Windows 10 Environment) &#x2699;
+## Local Setup (Windows 10 Environment)
 
 1. Download the source code from GitHub.
 
