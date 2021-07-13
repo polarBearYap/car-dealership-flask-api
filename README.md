@@ -20,7 +20,12 @@
     - /api/v1/car_price/global_feature_importance (GET): Return global feature importance for the raw features and preprocessed features. The details will soon available in another GitHub repo.
 
 2. Demo for car dealership Flask API (Local deployment)
+
 ![Demo for Car Dealership Flask API](resources/car-dealership-flask-api-demo.gif)
+
+2. Demo for car dealership Flask API (Azure deployment)
+
+![Demo for Car Dealership Flask API 2](resources/car-dealership-flask-api-demo2.gif)
 
 ## Folder Structure
 - `car_dealership` folder contains flask application.
