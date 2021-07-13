@@ -43,6 +43,7 @@ The setup steps for first option is available in this [MS docs](https://docs.mic
 
     - `docker run -p 4000:80 car_dealership_api:latest`
     - This will run the built Docker container in localhost:4000. You can define any open ports that you like.
+    - Try to navigate to http://locahost:4000/api/v1/car_price/global_feature_importance to see if any JSON is returned.
 
 ## Deploy Docker image to Azure
 
@@ -53,6 +54,7 @@ The setup steps for first option is available in this [MS docs](https://docs.mic
     - `az acr login`
     - `docker run -p 4000:80 <container-registry-login-server-url>/<repo-name>:<your-current-version-number>`
     - This will remotely pull the image to your local machine and run the built Docker container in localhost:4000.
+    - Try to navigate to http://locahost:4000/api/v1/car_price/global_feature_importance to see if any JSON is returned.
 
 3. Follow the instructions in this [MS docs](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-docker-webapp?view=azure-devops&tabs=python) to create an Web App to host Docker container.
 
