@@ -8,7 +8,7 @@
 * [Local Setup (Windows 10 Environment)](#local-setup-windows-10-environment-)
 * [Deploy Docker image to Azure](#Deploy-Docker-image-to-Azure)
 * [Technical Contributions](#Technical-Contributions)
-* [Learning-Lessons](#Learning-Lessons)
+* [Learning Lessons](#Learning-Lessons)
 * [Credits](#Credits)
 
 ## Learning Purpose &#128218;
