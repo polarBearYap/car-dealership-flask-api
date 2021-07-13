@@ -19,9 +19,12 @@
     - /api/v1/car_price/prediction (POST): Given an input features, return the prediction result.
     - /api/v1/car_price/global_feature_importance (GET): Return global feature importance for the raw features and preprocessed features. The details will soon available in another GitHub repo.
 
+2. Demo for car dealership Flask API (Local deployment)
+![Demo for Car Dealership Flask API](resources/car-dealership-flask-api-demo.gif)
+
 ## Folder Structure
 - `car_dealership` folder contains flask application.
-- `test` folder contains input for testing, delete this folder when building Docker image.
+- `resources` folder contains input for testing, delete this folder when building Docker image.
 
 ## Learning Purpose &#128218;
 - To learn how to build Python &#128013; production-ready model using Docker.
