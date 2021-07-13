@@ -2,10 +2,10 @@
 - A Docker container for deployment of Python production-ready ML model using Flask. 
 
 ## Table of Contents
-* [Learning Purpose](#Learning-Purpose)
-* [Technology Applied](#Technology-Applied)
-* [Software Requirement](#software-requirement-windows-10-environment)
-* [Local Setup (Windows 10 Environment)](#local-setup-windows-10-environment))
+* [Learning Purpose](#Learning-Purpose-)
+* [Technology Applied](#Technology-Applied-)
+* [Software Requirement](#software-requirement-windows-10-environment-)
+* [Local Setup (Windows 10 Environment)](#local-setup-windows-10-environment-)
 * [Deploy Docker image to Azure](#Deploy-Docker-image-to-Azure)
 * [Technical Contributions](#Technical-Contributions)
 * [Learning-Lessons](#Learning-Lessons)
