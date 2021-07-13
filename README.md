@@ -7,9 +7,9 @@
 - To get my hands dirty in DevOps &#128521;.
 
 ## Technology Applied &#129302;
-- Docker: To containerise the API since there is many Python dependencies, why not just bundle it up.
-- Flask: For building API to allow access to trained models.
-- Azure AutoML: Auto optmization of machine learning models without even trying &#129315;.
+- [Docker](https://www.docker.com/): To containerise the API since there is many Python dependencies, why not just bundle it up.
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/): For building API to allow access to trained models.
+- [Azure AutoML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml): Auto optmization of machine learning models without even trying &#129315;.
 
 ## Software Requirement (Windows 10 Environment) &#128187;
 - Windows Edition
@@ -47,6 +47,10 @@ The setup steps for first option is available in this [MS docs](https://docs.mic
 3. Follow the instructions in this [MS docs](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-docker-webapp?view=azure-devops&tabs=python) to create an Web App to host Docker container.
 
 4. Enjoy your Docker-containerised Python Flask API hosted in Azure!!! Congrats &#127881;&#127870;&#127882;
+
+## Technical Contributions
+1. Define a requirements.txt for the Python environment for Azure AutoML inference.
+2. Define a docker image for the deployment of Azure AutoML model. 
 
 ## Learning lessons
 
