@@ -1,7 +1,17 @@
 # car-dealership-flask-api
 - A Docker container for deployment of Python production-ready ML model using Flask. 
 
-## Learning purpose &#128218;
+## Table of Contents
+* [Learning Purpose](#Learning-Purpose-&#128218;)
+* [Technology Applied](#Technology-Applied-&#129302;)
+* [Software Requirement](#Software-Requirement-(Windows-10-Environment)-&#128187;)
+* [Local Setup (Windows 10 Environment)](#Local-Setup-(Windows-10-Environment)-&#x2699;)
+* [Deploy Docker image to Azure](#Deploy-Docker-image-to-Azure)
+* [Technical Contributions](#Technical-Contributions)
+* * [Learning-Lessons](#Learning-Lessons)
+* * [Credits](#Credits)
+
+## Learning Purpose &#128218;
 - To learn how to build Python &#128013; production-ready model using Docker.
 - To learn how to deploy built Docker image to Azure Web App.
 - To get my hands dirty in DevOps &#128521;.
@@ -52,7 +62,7 @@ The setup steps for first option is available in this [MS docs](https://docs.mic
 1. Define a requirements.txt for the Python environment for Azure AutoML inference.
 2. Define a docker image for the deployment of Azure AutoML model. 
 
-## Learning lessons
+## Learning Lessons
 
 - You are going to encounter numerous errors and bugs during deployment. But that's part of the process. I spend like 5 weeks in figuring out how things work from creating API using Flask to building the Docker image. 
 
