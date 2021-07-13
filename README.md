@@ -1,6 +1,7 @@
 # car-dealership-flask-api
 - A Docker container for deployment of Python production-ready ML model using Flask. 
 - A proof of concept/simple prototype for ML model deployment in Azure.
+- **Important**: Note that another [repository](https://github.com/polarBearYap/car-dealership-automl) is the foundation for this repository. This repository is foucsed on model deployment and another one is focused on model training. Be sure to check out both.
 
 ## Table of Contents
 * [Project Details](#Project-Details)
@@ -18,7 +19,7 @@
 ## Project Details
 1. Contain 2 Endpoints:
     - /api/v1/car_price/prediction (POST): Given an input features, return the prediction result.
-    - /api/v1/car_price/global_feature_importance (GET): Return global feature importance for the raw features and preprocessed features. The details will soon available in another GitHub repo.
+    - /api/v1/car_price/global_feature_importance (GET): Return global feature importance for the raw features and preprocessed features.
 
 ## Demo
 1. Demo for car dealership Flask API (Local deployment)
