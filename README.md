@@ -1,7 +1,10 @@
 # car-dealership-flask-api
 - A Docker container for deployment of Python production-ready ML model using Flask. 
+- A proof of concept/simple prototype for ML model deployment in Azure.
 
 ## Table of Contents
+* [Project Details](#Project-Details)
+* [Folder Structure](#Folder-Structure)
 * [Learning Purpose](#Learning-Purpose-)
 * [Technology Applied](#Technology-Applied-)
 * [Software Requirement](#software-requirement-windows-10-environment-)
@@ -10,6 +13,15 @@
 * [Technical Contributions](#Technical-Contributions)
 * [Learning Lessons](#Learning-Lessons)
 * [Credits](#Credits)
+
+## Project Details
+1. Contain 2 Endpoints:
+    - /api/v1/car_price/prediction (POST): Given an input features, return the prediction result.
+    - /api/v1/car_price/global_feature_importance (GET): Return global feature importance for the raw features and preprocessed features. The details will soon available in another GitHub repo.
+
+## Folder Structure
+- `car_dealership` folder contains flask application.
+- `test` folder contains input for testing, delete this folder when building Docker image.
 
 ## Learning Purpose &#128218;
 - To learn how to build Python &#128013; production-ready model using Docker.
