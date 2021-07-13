@@ -4,6 +4,7 @@
 
 ## Table of Contents
 * [Project Details](#Project-Details)
+* [Demo](#Demo)
 * [Folder Structure](#Folder-Structure)
 * [Learning Purpose](#Learning-Purpose-)
 * [Technology Applied](#Technology-Applied-)
@@ -19,13 +20,12 @@
     - /api/v1/car_price/prediction (POST): Given an input features, return the prediction result.
     - /api/v1/car_price/global_feature_importance (GET): Return global feature importance for the raw features and preprocessed features. The details will soon available in another GitHub repo.
 
-2. Demo for car dealership Flask API (Local deployment)
-
-![Demo for Car Dealership Flask API](resources/car-dealership-flask-api-demo.gif)
+## Demo
+1. Demo for car dealership Flask API (Local deployment)
+    - ![Demo for Car Dealership Flask API](resources/car-dealership-flask-api-demo.gif)
 
 2. Demo for car dealership Flask API (Azure deployment)
-
-![Demo for Car Dealership Flask API 2](resources/car-dealership-flask-api-demo2.gif)
+    - ![Demo for Car Dealership Flask API 2](resources/car-dealership-flask-api-demo2.gif)
 
 ## Folder Structure
 - `car_dealership` folder contains flask application.
