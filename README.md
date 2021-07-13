@@ -8,8 +8,8 @@
 * [Local Setup (Windows 10 Environment)](#Local-Setup-(Windows-10-Environment))
 * [Deploy Docker image to Azure](#Deploy-Docker-image-to-Azure)
 * [Technical Contributions](#Technical-Contributions)
-* * [Learning-Lessons](#Learning-Lessons)
-* * [Credits](#Credits)
+* [Learning-Lessons](#Learning-Lessons)
+* [Credits](#Credits)
 
 ## Learning Purpose
 - To learn how to build Python &#128013; production-ready model using Docker.
