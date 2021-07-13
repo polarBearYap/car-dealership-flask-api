@@ -14,7 +14,7 @@
 ## Software Requirement (Windows 10 Environment) &#128187;
 - Windows Edition
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
-- Visual Studio 2019 Community Version
+- Visual Studio 2019 Community Version: To develop the API and manage Python dependencies
 - Azure free account (Poor man choice &#129299;)
 
 > Tips &#128161;: For installing Docker Desktop in Windows, I personally recommended to setup WSL 2 backend instead of setting up Hyper-V backend and Windows containers.
@@ -55,3 +55,10 @@ The setup steps for first option is available in this [MS docs](https://docs.mic
 ## Learning lessons
 
 - You are going to encounter numerous errors and bugs during deployment. But that's part of the process. I spend like 5 weeks in figuring out how things work from creating API using Flask to building the Docker image. 
+
+## Credits
+1. Stack Overflow Community
+
+2. [ONNX Runtime for Azure ML](https://hub.docker.com/_/microsoft-azureml-onnxruntimefamily). I use `mcr.microsoft.com/azureml/onnxruntime:latest` as the base image of the Docker deployment.
+
+3. My university UTAR. For renewing my free $100 Azure credit yearly. However, I almost used finish already due to inexperience &#128546;.
