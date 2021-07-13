@@ -11,17 +11,17 @@
 * [Learning-Lessons](#Learning-Lessons)
 * [Credits](#Credits)
 
-## Learning Purpose
+## Learning Purpose &#128218;
 - To learn how to build Python &#128013; production-ready model using Docker.
 - To learn how to deploy built Docker image to Azure Web App.
 - To get my hands dirty in DevOps &#128521;.
 
-## Technology Applied
+## Technology Applied &#129302;
 - [Docker](https://www.docker.com/): To containerise the API since there is many Python dependencies, why not just bundle it up.
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/): For building API to allow access to trained models.
 - [Azure AutoML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml): Auto optmization of machine learning models without even trying &#129315;.
 
-## Software Requirement (Windows 10 Environment)
+## Software Requirement (Windows 10 Environment) &#128187;
 - Windows Edition
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
 - Visual Studio 2019 Community Version: To develop the API and manage Python dependencies
@@ -30,7 +30,7 @@
 > Tips &#128161;: For installing Docker Desktop in Windows, I personally recommended to setup WSL 2 backend instead of setting up Hyper-V backend and Windows containers.
 The setup steps for first option is available in this [MS docs](https://docs.microsoft.com/en-us/windows/wsl/install-win10). The latter option requires [Hypervisor](https://docs.microsoft.com/en-us/answers/questions/29175/installation-of-hyper-v-on-windows-10-home.html), which is not available in Windows Home Edition. However, you can try to [install Hypervisor in Windows Home Edition](https://www.itechtics.com/enable-hyper-v-windows-10-home/).
 
-## Local Setup (Windows 10 Environment)
+## Local Setup (Windows 10 Environment) &#x2699;
 
 1. Download the source code from GitHub.
 
