@@ -72,3 +72,14 @@ def predict_price():
 @car_price_bp.route('/global_feature_importance', methods=('GET', ))
 def get_price_feature_importances():
     return jsonify([GLOBAL_PRICE_RAW_FI, GLOBAL_PRICE_ENG_FI])
+
+@car_price_bp.after_request
+def after_request_func(response):
+    """ 
+    This function will run after a request, as long as no exceptions occur.
+    It must take and return the same parameter - an instance of response_class.
+    Source: https://pythonise.com/series/learning-flask/python-before-after-request
+    """
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Headers'] = 'Origin, X-Requested-With, Content-Type, Accept'
+    return response
